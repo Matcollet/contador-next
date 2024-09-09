@@ -5,7 +5,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/src/imgs/depositphotos_387700050-stock-photo-dark-black-geometric-grid-carbon.jpg);
+  background-image: url(./imgs/fundo_preto.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -13,7 +13,7 @@ body {
 .geral {
   border: 5px solid rgb(114, 84, 116);
   height: 670px;
-  background-image: url(/src/imgs/um-fundo-floral-cinza-e-branco-com-uma-flor-branca-nele_901003-5774.jpg);
+  background-image: url(./imgs/flor_cinza.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
