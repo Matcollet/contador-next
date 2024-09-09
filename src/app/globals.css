@@ -40,6 +40,7 @@ p {
   align-items: center;
   justify-content: center;
   font-size: 120px;
+  text-shadow: 1px 1px 10px black;
 }
 
 button {
