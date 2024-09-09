@@ -9,7 +9,7 @@ export default function Contador() {
     if (numero > 0 ) {
       return "darkgreen";
     } else if (numero < 0) {
-      return "crimson";
+      return "maroon";
     } else {
       return "black";
     }
