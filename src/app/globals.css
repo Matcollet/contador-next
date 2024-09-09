@@ -22,6 +22,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 #topo {
@@ -56,9 +57,7 @@ button {
 
 button:active {
   box-shadow: 3.4px 4px 4px rgba(0, 0, 0, 0.2);
-  /* Reduz a sombra, simulando um clique */
   transform: translateY(3.2px);
-  /* Faz o botão "descer" um pouco */
 }
 
 .negativos:hover {
