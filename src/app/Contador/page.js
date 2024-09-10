@@ -48,6 +48,11 @@ export default function Contador() {
   function zerar() {
     setNumero(numero - numero)
   }
+  function randomadd() {
+    const numeroAleatorio = Math.floor(Math.random() * 1000000) + 1;
+    const sinal = Math.random() < 0.5 ? -1 : 1;
+    setNumero(numeroAleatorio * sinal);
+  }
 
   return (
     <section className='geral'>
@@ -65,6 +70,7 @@ export default function Contador() {
           <button className='positivos' onClick={aumentar1000}>+1000</button>
           <button className='positivos' onClick={aumentar10000}>+10000</button>
         </section>
+        <button className='rdm-btn' onClick={randomadd}>Random 1000000</button>
         <button className='z-btn' onClick={zerar}>ZERAR</button>
         <section className='btn-n'>
           <button className='negativos' onClick={diminuir1}>-1</button>
