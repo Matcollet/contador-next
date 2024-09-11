@@ -72,6 +72,10 @@ button:active {
   background-color: rgb(165, 165, 33);
 }
 
+.rdm-btn:hover {
+  background-color: rgb(165, 165, 33);
+}
+
 .btns {
   display: flex;
   align-items: center;
